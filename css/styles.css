@@ -50,12 +50,12 @@ address {
     color: #2e2f42;
 }
 
-.menu-nav:hover,
-.menu-nav:focus {
+.menu-nav-item:hover,
+.menu-nav-item:focus {
     color: #404bbf;
 }
 
-.address {
+.header-address {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -64,8 +64,8 @@ address {
     color: #434455;
 }
 
-.contacts:hover,
-.contacts:focus {
+.header-address-item:hover,
+.header-address-item:focus {
     color: #404bbf;
 }
 
