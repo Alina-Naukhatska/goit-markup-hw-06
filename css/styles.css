@@ -1,7 +1,7 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2e2f42;
-    /* background: #fff; */
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background: #fff;
 }
 
 ul {
@@ -13,9 +13,9 @@ a {
     /* color: inherit; */
 }
 
-/* address {
+address {
     font-style: normal;
-} */
+}
 
 /* прихований заголовок h2*/
 .visually-hidden {
@@ -34,11 +34,12 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
+    /* color: #2e2f42; */
 }
 
 .header-logo .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-nav {
@@ -49,7 +50,12 @@ a {
     color: #2e2f42;
 }
 
-.contacts {
+.menu-nav:hover,
+.menu-nav:focus {
+    color: #404bbf;
+}
+
+.address {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -79,14 +85,24 @@ a {
 }
 
 .hero-button {
+        font-family: "Roboto", sans-serif;
         background: #4d5ae5;
-        border: none;
+        /* border: none; */
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.features {
+    background-color: #F4F4FD;
 }
 
 .features-title {
@@ -147,6 +163,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 /* .portfolio-item {
@@ -188,6 +205,7 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 
 .footer-logo .accent {
