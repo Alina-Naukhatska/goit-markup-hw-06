@@ -14,7 +14,10 @@
     <!-- Нормалізація стилів -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- Підключення css -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -23,8 +26,8 @@
   <body>
     <header>
       <nav>
-        <a class="logo" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a
+        <a class="header-logo" href="./index.html"
+          ><span class="accent">Web</span>Studio</a
         >
         <ul class="menu-nav">
           <li><a href="./index.html">Studio</a></li>
@@ -33,13 +36,15 @@
         </ul>
       </nav>
 
-      <address class="contacts">
+      <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -54,7 +59,7 @@
 
       <!-- Section 2 -->
       <section class="features">
-        <h2>Features</h2>
+        <h2 class="visually-hidden">Features</h2>
         <ul>
           <li>
             <h3 class="features-title">Strategy</h3>
@@ -188,8 +193,8 @@
     </main>
 
     <footer>
-      <a class="footer-logo-web" href="./index.html"
-        >Web<span class="footer-logo-studio">Studio</span></a
+      <a class="footer-logo" href="./index.html"
+        >Web<span class="accent">Studio</span></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
