@@ -18,14 +18,14 @@ address {
 }
 
 /* прихований заголовок h2*/
-.visually-hidden {
+/* .visually-hidden {
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
+} */
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -35,7 +35,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* color: #2e2f42; */
+  
 }
 
 .header-logo .accent {
