@@ -42,13 +42,13 @@ address {
     color: #2e2f42;
 }
 
-.menu-nav {
+/* .menu-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
+} */
 
 .menu-nav-item {
         font-weight: 500;
@@ -63,13 +63,22 @@ address {
     color: #404bbf;
 }
 
-.header-address {
+/* .header-address {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+} */
+
+.header-address-item {
+        font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
 }
 
 .header-address-item:hover,
