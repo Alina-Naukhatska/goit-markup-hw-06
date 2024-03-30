@@ -134,12 +134,14 @@ img {
 
 .hero {
     background-color: #2e2f42;
-}
-
-.hero-wrap {
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
+/* .hero-wrap {
+    padding-top: 188px;
+    padding-bottom: 188px;
+} */
 
 .hero-title {
     font-weight: 700;
