@@ -4,7 +4,13 @@ body {
     background: #fff;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -63,7 +69,7 @@ img {
     display: flex;
 }
 
-.header-nav{
+.header-nav {
     /* Контейнер logo + menu */
     display: flex;
     align-items: center;
@@ -245,15 +251,15 @@ img {
     color: #2e2f42;
     /* З великої літери */
     text-transform: capitalize;
-    margin-bottom: 72px;
     max-width: 162px;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .team-card {
     background: #fff;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);  
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -277,6 +283,11 @@ img {
 
 /* ------------- PORTFOLIO ---------------- */
 
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -285,8 +296,7 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px ;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -304,9 +314,7 @@ img {
     color: #2e2f42;
 }
 
-.portfolio-list {
-    padding-bottom: 120px;
-}
+.portfolio-list {}
 
 .portfolio-title-text {
     font-weight: 400;
@@ -314,13 +322,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text-container {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    margin-bottom: 8px;
+    border: 1px solid #e7e9fc;
 }
 
 /* ------------- FOOTER ---------------- */
