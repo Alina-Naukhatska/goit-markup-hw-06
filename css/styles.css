@@ -68,7 +68,10 @@ img {
 .header-nav{
     /* Контейнер logo + menu */
     display: flex;
-    gap: 76px;
+    align-items: center;
+    /* Чомусь не gap, а margin */
+    /* gap: 76px; */
+    margin-right: 76px;
     /* Щоб не давати margin-right між меню та контактами!!! (Flex-grow даэ елементу зайняти всю "не зайняту ширину" */
     flex-grow: 1;
 }
