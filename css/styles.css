@@ -71,6 +71,7 @@ img {
     /* gap: 76px; */
     /* Щоб не давати margin-right між меню та контактами!!! (Flex-grow даэ елементу зайняти всю "не зайняту ширину" */
     flex-grow: 1;
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -82,8 +83,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-logo .accent {
@@ -94,8 +93,6 @@ img {
     /* Контейнер для меню (на ul) */
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-nav-item {
@@ -115,8 +112,6 @@ img {
     /* Контейнер для контактів */
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-address-item {
