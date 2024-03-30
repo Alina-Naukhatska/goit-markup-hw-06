@@ -71,7 +71,6 @@ img {
     align-items: center;
     /* Чомусь не gap, а margin */
     /* gap: 76px; */
-    margin-right: 76px;
     /* Щоб не давати margin-right між меню та контактами!!! (Flex-grow даэ елементу зайняти всю "не зайняту ширину" */
     flex-grow: 1;
 }
@@ -84,6 +83,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo .accent {
