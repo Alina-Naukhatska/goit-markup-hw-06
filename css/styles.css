@@ -315,9 +315,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-
-.portfolio-list {}
 
 .portfolio-title-text {
     font-weight: 400;
@@ -325,7 +324,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
 }
 
 .portfolio-item-text-container {
@@ -333,6 +331,7 @@ img {
     padding-bottom: 32px;
     padding-left: 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 /* ------------- FOOTER ---------------- */
