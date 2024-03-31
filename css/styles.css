@@ -80,6 +80,8 @@ img {
 }
 
 .menu-nav-item {
+    /* це посилання тому робимо display: blok; */
+    display: block;
     padding: 24px 0;
 }
 
@@ -254,8 +256,8 @@ img {
     color: #2e2f42;
     /* З великої літери */
     text-transform: capitalize;
-    max-width: 162px;
-    margin: 0 auto;
+    /* max-width: 162px;
+    margin: 0 auto; */
     margin-bottom: 72px;
 }
 
@@ -263,6 +265,7 @@ img {
     background: #fff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .team-title {
@@ -324,6 +327,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-item-text-container {
