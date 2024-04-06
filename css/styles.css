@@ -497,7 +497,8 @@ img {
     margin-right: 120px;
 }
 
-.icon-link-footer:hover {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
     background-color: #31d0aa;
 }
 
