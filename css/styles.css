@@ -82,13 +82,6 @@ img {
     flex-grow: 1;
 }
 
-.menu-nav-item {
-    /* це посилання тому робимо display: blok; */
-    display: block;
-    padding: 24px 0;
-
-}
-
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -111,6 +104,9 @@ img {
 }
 
 .menu-nav-item {
+    /* це посилання тому робимо display: blok; */
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
