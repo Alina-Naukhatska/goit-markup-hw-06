@@ -476,6 +476,7 @@ img {
 .footer-wrap {
     display: flex;
     gap: 120px;
+    align-items: baseline,
 }
 
 .footer-soc-list-text {
@@ -489,7 +490,11 @@ img {
 
 .icon-list-footer {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.footer-content {
+    margin-right: 120px;
 }
