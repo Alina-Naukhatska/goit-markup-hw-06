@@ -173,6 +173,7 @@ img {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -253,7 +254,7 @@ img {
 .wrap-icon {
     display: flex;
     margin-bottom: 8px;
-    width: 264px;
+    /* width: 264px; */
     height: 112px;
     border: 1px solid #8e8f99;
     background-color: #f4f4fd;
