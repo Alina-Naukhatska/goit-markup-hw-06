@@ -764,7 +764,7 @@ img {
 }
 
 .checkbox-container {
-    display: inline-flex;
+    display: flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
