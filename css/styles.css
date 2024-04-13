@@ -765,9 +765,6 @@ img {
 
 .checkbox-container {
     display: inline-flex;
-}
-
-.check-text span {
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -776,8 +773,19 @@ img {
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* display: inline-flex; */
 }
+
+/* .check-text span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+} */
 
 .modal-check:checked+.check-text span {
     background-color: #404bbf;
