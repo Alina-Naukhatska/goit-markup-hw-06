@@ -57,21 +57,98 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-button">
+          <svg class="icon-header" width="16.8" height="14.4">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobil menu -->
+      <div class="mob-menu">
+        <div class="mob-wrap">
+          <button type="button" class="menu-close-button">
+            <svg class="icon-open" width="8" height="8">
+              <use href="./images/icons.svg#icon-open"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-menu-nav">
+              <li class="mob-menu-nav-list">
+                <a class="mob-menu-nav-item mob-current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-nav-list">
+                <a class="mob-menu-nav-item" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-nav-list">
+                <a class="mob-menu-nav-item" href="">Contacts</a>
+              </li>
+            </ul>
+            <address class="mob-address">
+              <ul class="mob-address">
+                <li class="mob-address-list">
+                  <a
+                    class="mob-address-item mob-accent"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="mob-address-item" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </nav>
+        </div>
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="" class="icon-link">
+              <svg class="icon-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="" class="icon-link">
+              <svg class="icon-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="" class="icon-link">
+              <svg class="icon-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="" class="icon-link">
+              <svg class="icon-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
     <main>
       <!-- Section 1 -->
+
       <section class="hero">
         <div class="container">
-          <!-- <div class="hero-wrap"> -->
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
-          <!-- </div> -->
         </div>
       </section>
 
       <!-- Section 2 -->
+
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
@@ -130,7 +207,9 @@
           </ul>
         </div>
       </section>
+
       <!-- Section 3 -->
+
       <section class="section-team">
         <div class="container">
           <h2 class="team-subtitle">Our Team</h2>
@@ -138,6 +217,9 @@
           <ul class="team-list">
             <li class="team-card">
               <img
+                scrset="./images/team_card_1.jpg 1x, 
+                ./images/team_card_1-2x.jpg 2x"
+                class="team-list-img"
                 src="./images/team_card_1.jpg"
                 alt="Team Card 1"
                 width="264"
@@ -145,7 +227,7 @@
               <div class="team-card-list-container">
                 <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-title-text">Product Designer</p>
-                <!-- Перелік соц.сетей -->
+
                 <ul class="icon-list">
                   <li class="icon-item">
                     <a href="" class="icon-link">
@@ -181,6 +263,9 @@
 
             <li class="team-card">
               <img
+                scrset="./images/team_card_2.jpg 1x, 
+                ./images/team_card_2-2x.jpg 2x"
+                class="team-list-img"
                 src="./images/team_card_2.jpg"
                 alt="Team Card 2"
                 width="264"
@@ -223,6 +308,9 @@
 
             <li class="team-card">
               <img
+                scrset="./images/team_card_3.jpg 1x, 
+                ./images/team_card_3-2x.jpg 2x"
+                class="team-list-img"
                 src="./images/team_card_3.jpg"
                 alt="Team Card 3"
                 width="264"
@@ -265,6 +353,9 @@
 
             <li class="team-card">
               <img
+                scrset="./images/team_card_4.jpg 1x, 
+                ./images/team_card_4-2x.jpg 2x"
+                class="team-list-img"
                 src="./images/team_card_4.jpg"
                 alt="Team Card 4"
                 width="264"
@@ -315,21 +406,43 @@
           <h2 class="section-portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
-              <!-- cover 1 card -->
               <div class="portfolio-cover-wrap">
-                <img
-                  src="./images/portfolio-1.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio-1.jpg    1x,
+                      ./images/portfolio-1-2x.jpg 2x
+                    "
+                    media="(min-width:1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-1-mob.jpg    1x,
+                      ./images/portfolio-1-mob-2x.jpg 2x
+                    "
+                    media="(min-width:767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-1-tab.jpg    1x,
+                      ./images/portfolio-1-tab-2x.jpg 2x
+                    "
+                    media="(max-width:768px)"
+                  />
+                  <img
+                    src="./images/portfolio-1.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
-              <!-- cover 1 card -->
+
               <div class="portfolio-item-text-container">
                 <h3 class="portfolio-title">Banking App</h3>
                 <p class="portfolio-title-text">App</p>
@@ -435,7 +548,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-wrap">
         <div class="footer-content">
           <a class="footer-logo" href="./index.html"
@@ -498,9 +611,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop">
+    <!-- Modalka -->
+
+    <!-- <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-open-btn">
           <svg class="icon-open" width="8" height="8">
@@ -582,6 +697,6 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
